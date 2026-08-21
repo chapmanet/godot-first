@@ -9,13 +9,13 @@ size = Vector2(19, 19)
 [node name="Game" type="Node2D"]
 
 [node name="Level 1" parent="." instance=ExtResource("2_yqjtg")]
-position = Vector2(-40.2778, 21.258)
+position = Vector2(1, 0)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(-967, -140)
 
 [node name="Player" parent="." instance=ExtResource("2_lnu2h")]
-position = Vector2(-447, 9)
+position = Vector2(-406, -12)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(1.5, 2.5)
